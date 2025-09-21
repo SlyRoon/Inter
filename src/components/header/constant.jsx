@@ -1,4 +1,3 @@
-
 import Planning from '../../images/icon-planning.svg?react';
 import Calendar from '../../images/icon-calendar.svg?react';
 import Todo from '../../images/icon-todo.svg?react';

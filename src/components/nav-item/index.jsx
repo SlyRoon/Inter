@@ -16,7 +16,7 @@ export default function NavItem({ text = '', children }) {
         {children && selected !== text && <ArrowDownIcon />}
               {children && selected === text && <ArrowUpIcon />}
               {/* Идея чата гпт как пофиксить Акуратно мб будет баг */}
-        {selected === text && children && <div className="absolute top-full">{children}</div>}
+        {selected === text && children && <div className="">{children}</div>}
       </div>
     </div>
   );
