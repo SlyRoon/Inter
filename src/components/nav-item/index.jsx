@@ -14,10 +14,9 @@ export default function NavItem({ text = '', children }) {
           {text}
         </span>
         {children && selected !== text && <ArrowDownIcon />}
-              {children && selected === text && <ArrowUpIcon />}
-              {/* Идея чата гпт как пофиксить Акуратно мб будет баг */}
-        {selected === text && children && <div className="">{children}</div>}
+        {children && selected === text && <ArrowUpIcon />}
       </div>
+      {selected && children}
     </div>
   );
 }
